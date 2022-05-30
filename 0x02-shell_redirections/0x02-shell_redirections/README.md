@@ -1,1 +1,1 @@
-this is testing
+describing what each script is doing
