@@ -1,6 +1,5 @@
-# This Puppet manifest installs puppet-lint
-
+# Using Puppet, install puppet-lint
 package { 'puppet-lint':
-  ensure   => '2.1.1',
-  provider => 'gem',
+  ensure          =>  'installed',
+  install_options =>  ['-v', '2.1.1'],
 }
