@@ -1,7 +1,5 @@
+# SSH Client Configuration file
 Host *
-    IdentityFile ~/.ssh/id_rsa
-
-Host 35.196.4.24
-    User ubuntu
-    IdentityFile ~/.ssh/holberton
-    GSSAPIAuthentication yes
+	HostName 100.26.169.98
+	IdentifyFile ~/.ssh/school
+	PasswordAuthentication no
